@@ -32,9 +32,8 @@ console.log(CustomDate);
 
 console.log(CustomDate.getMonth());
 
-// Prototypes in JS
 let obj = {
-    name:"Harsh",
+    name:"Shreyash",
     class:"MSC",
     getData: function(){
         console.log(`Student Name is ${this.name} and class is ${this.class}`);
@@ -42,5 +41,5 @@ let obj = {
 }
 
 console.log(obj);
-obj.Prototype.designation = "UI Developer";
-console.log(obj);
+// obj.Prototype.designation = "UI Developer";
+// console.log(obj);
